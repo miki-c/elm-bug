@@ -67,8 +67,8 @@ view : Model -> Html Msg
 view model =
     div []
         [ div [] [ text "First page..." ]
-        , div [] [ Html.button [ onClick ButtonClicked ] [ text "Next page" ] ]
         , div [] [ Html.input [ Html.Attributes.value model.myTextfield, Html.Events.onInput TextfieldChanged ] [] ]
+        , div [] [ Html.button [ onClick ButtonClicked ] [ text "Next page" ] ]
         ]
 
 
