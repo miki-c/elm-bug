@@ -1,0 +1,17 @@
+{
+  "name": "elm-bug",
+  "version": "1.0.0",
+  "description": "A project to demonstrate a bug in Elm.",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "node-elm-compiler": "^5.0.6"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
