@@ -1,6 +1,8 @@
 # Description
-A project to demonstrate a bug that occurs when using the most recent Elm core libraries, but not when using the older libraries.  
-This is a simple Single-Page-Application with just two pages, named *First page* and *Second page*, respectively.
+A simple Single-Page-Application with just two pages, named *First page* and *Second page*, respectively.  
+This project demonstrates a bug that occurs when using the most recent Elm core libraries, but not when using the older libraries.  
+The bug is described here: https://github.com/elm/core/issues/1128
+
 
 # Preparation
 You will notice the `elm.json` file is empty. Before running the app, fill the file with the contents of either `elm.json.buggy` or ` elm.json.working`. As the name suggests, only the former file causes the bug.
