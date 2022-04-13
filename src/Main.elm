@@ -11,11 +11,6 @@ import Route exposing (Route)
 import Url exposing (Url)
 
 
-
--- parcel index.html
--- http://localhost:1234/#/first
-
-
 type Model
     = Redirect GlobalState
     | First FirstPage.Model
